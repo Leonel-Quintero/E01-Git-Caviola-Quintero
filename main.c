@@ -1,8 +1,14 @@
 #include<stdio.h>
 
-void primero();
-void segundo();
-void iguales();
+void primero(int n){
+    printf("Primer numero: %d", n);
+}
+void segundo(int n){
+    printf("Segundo numero: %d", n);
+}
+void iguales(){
+    printf("Son iguales");
+}
 
 int main(){
     int n1, n2;

@@ -11,5 +11,13 @@ int main(){
     printf("Ingrese el segundo numero: ");
     scanf("%d", &n2);
     return 0;
+
+if (n1 > n2) {
+        primero(n1);
+    } else if (n2 > n1) {
+        segundo(n2);
+    } else {
+        iguales();
+    }
 }
 ;
